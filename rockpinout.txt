@@ -1,0 +1,47 @@
+1-3.3V--------------------------GPS -> BMP280
+17-3.3V ------------------------LORA yellow
+
+2-5V ---------------------------Power Converter -> Transmitter +
+4-5V ---------------------------LEDS
+
+3-SDA(GPIO2) -------------------BMP280 SDI
+5-SCL(GPIO3) -------------------BMP280 SCK
+27-I2C
+28-I2C
+
+19-MOSI(GPIO10)-----------------LORA black
+21-MISO(GPIO9)------------------LORA brown
+23-CLK(GPIUO11)-----------------LORA red
+
+8-TX (GPIO14)-------------------GPS RX
+10-RX (GPIO15)------------------GPS TX
+
+6-GND --------------------------BMP280
+9-GND --------------------------GPS
+14-GND
+20-GND
+25-GND
+30-GND -------------------------LORA orange
+34-GND -------------------------Buzzer
+39-GND -------------------------Power Converter -> Transmitter -
+
+
+7-GPIO4 
+11-GPIO17
+12-GPIO18 
+13-GPIO27 
+15-GPIO22 
+16-GPIO23 
+18-GPIO24 
+22-GPIO25 
+24-GPIO8 
+26-GPIO7 
+29-GPIO5 -------------------------LORA white
+31-GPIO6 -------------------------LORA grey 
+32-GPIO12
+33-GPIO13
+35-GPIO19 -------------------------Buzzer
+36-GPIO16 
+37-GPIO26 
+38-GPIO20 
+40-GPIO21 

@@ -1,0 +1,43 @@
+<grid>
+    GridLayout:
+        cols:1
+        size: root.width, root.height
+        Label:
+            text: "Launch options: "
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1
+        GridLayout:
+            cols:3
+            
+        Button:
+            text: " Run Graph Client "
+            background_color: (0.0, 1, 0.0, 1.0)
+            on_press: root.graphbtn()
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1
+                Line:
+                    width: 4
+                    rectangle: self.x, self.y, self.width, self.height
+        Button:
+            text: " Run Groundpi "
+            background_color: (0.0, 1, 0.0, 1.0)
+            on_press: root.groundbtn()
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1
+                Line:
+                    width: 4
+                    rectangle: self.x, self.y, self.width, self.height
+
+        Button:
+            text: " Run Rocketpi "
+            background_color: (0.0, 1, 0.0, 1.0)
+            on_press: root.rocketbtn()
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1
+                Line:
+                    width: 4
+                    rectangle: self.x, self.y, self.width, self.height
