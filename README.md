@@ -1,4 +1,5 @@
 # Avionics-Hardware
+![Avionics package](https://user-images.githubusercontent.com/24231101/63123774-9fc79900-bf5e-11e9-82e0-ecb7d621093c.png)
 Avionics Procedures: 
 RocketPi:
 - Check all sensors are plugged into pi
